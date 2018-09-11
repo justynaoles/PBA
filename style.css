@@ -1,0 +1,325 @@
+* {margin:0; padding:0;}
+
+@font face url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #3C454C;
+	background-color: #FFF;}
+
+header {
+	width: 964px;
+	height: 110px;
+	margin: 0 auto;}
+
+header img {
+	margin-top: 21.5px;}
+
+main h1 {
+	display:none;
+}
+.contact {
+	float: right;
+	font-size: 26px;
+	margin-top: 21.5px;
+	text-align: right;
+	font-weight: regular;}
+
+.contact span {
+	font-size: 14px;}
+	
+nav {
+	width: 100%;
+	height: 55px;
+	background-color: #F3F3F3;
+	font-size: 14px;
+	line-height: 55px;}
+	
+nav h1 {
+	font-size: 0px;
+	float: left;}
+
+nav ul {
+	width: 964px;
+	margin: 0 auto;}
+
+nav ul li {
+	float: left;
+	margin-left: 35px;
+	list-style: none;}
+	
+nav ul li:first-child {
+	margin-left:0px;}
+	
+nav ul li a {
+	text-decoration: none;
+	color: #3C454C;}
+
+nav ul li a:hover {
+	color: #4A6A9B;}
+
+aside {
+	width: 100%;
+	height: 70vh;
+	box-shadow: inset 0px 6px 6px -4px  #000000;
+	background: url(pliki/banner.jpg)center no-repeat;
+	background-size: cover;
+	position: relative;
+	font-weight: 300;}
+
+aside h4 {
+	font-size: 0px;}
+
+.motto {
+	width: 964px;
+	height: 120px;
+	left: 50%;
+	top:50%;
+	margin-top: -60px;
+	margin-left: -482px;
+	font-size: 49px;
+	color: #FFF;
+	position: absolute;
+	font-weight: bold;}
+
+.aboutme {
+	width: 960px;
+	height: 378px;
+	margin: 0 auto;
+	position: relative;}
+	
+.aboutme h2  {
+	font-size: 0px;}
+
+.textbox {
+	width:600px;
+	height: 155px;
+	margin-top: 111.5px;
+	position: absolute;}
+
+.addresscompany {
+	width: 960px;
+	height: 378px;
+	margin: 0 auto;
+	position: relative;}
+
+.addresscompanybox {
+	width:600px;
+	height: 155px;
+	margin-top: 111.5px;
+	position: absolute;}
+	
+.addresscompany h2 {
+	font-size: 0px;}
+
+.description {
+	width: 964px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;}
+
+.description p {
+	font-weight: 400;
+	font-size: 22px;}
+
+section {
+	width: 100%;
+	height: 378px;
+	background: url(pliki/background.png);
+	position: relative;}
+
+section img {
+	margin-top: 15px;
+	margin-bottom: 10px;}
+
+section h2 {
+	font-size: 0px;}
+
+section h3 {
+	font-size: 28px;
+	font-weight: 900;}
+
+.offer {
+	width:964px;
+	height: 254px;
+	top: 50%;
+	left: 50%;
+	margin-top: -127px;
+	margin-left: -482px;
+	position: absolute;}
+
+.offer p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-weight: 300;}
+	
+.loan, .insurance {
+	width: 280px;
+	height: 250px;
+	background-color: #FFF;
+	text-align: center;
+	float: left;
+	box-shadow: 0px 0px 9px #878787;}
+
+.insurance {
+	margin-left: 62px;}
+
+.consulting {
+	width: 284px;
+	height: 250px;
+	background-color: #FFF;
+	text-align: center;
+	float: left;
+	box-shadow: 0px 0px 9px #878787;
+	margin-left:58px;}
+
+
+article {
+	width: 100%;
+	height: 410px;
+	background-color: #F3F3F3;
+	position: relative;}
+
+.consultant {
+	width: 964px;
+	height: 262px;
+	top: 50%;
+	left: 50%;
+	margin-left: -482px;
+	margin-top: -131px;
+	position: absolute;}
+
+.consultant h3 {
+	font-size: 24.5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 900;}
+
+.consultant p {
+	font-weight: 300;}
+	
+.consultant img {
+	float: left;
+	padding-right: 40px;}
+
+footer {
+	width: 100%;
+	height: 142px;
+	background-color: #4A6BA0;
+	position: relative;}
+
+.addressbox {
+	width: 964px;
+	height: 142px;
+	top: 50%;
+	left: 50%;
+	margin-top: -71px;
+	margin-left: -482px;
+	position: absolute;
+	display: table;
+	font-size: 14px;
+	color: #FFF;}
+
+.addressbox p {
+	display: table-cell;
+	vertical-align: middle;}
+
+
+
+	/* Responsywność*/
+
+@media (max-width: 1000px) and (min-width: 800px) {
+	header {width: 100%;}
+	header img {margin-left:4%;}
+	.contact {margin-right:4%;}
+	nav ul {width: 100%;}
+	nav ul li:first-child {margin-left:4%;}
+	.aboutme {width: 96%; padding-left: 4%;}
+	.addresscompany {width: 96%; padding-left: 4%;}
+	.description {width: 100%;}
+	.motto  {width: 92%; height: 15vh; left:0%; top:0%; margin-left:0px; margin-top:27.5vh; font-size:40px; padding-right:4%; padding-left:4%;}
+	.offer {width:100%; height:300px; top:0%; left:0%; margin-top:37px; margin-left:0;}
+	.loan, .insurance, .consulting {width:28%; margin-left:4%; height:300px;}
+	article {height:450px;}
+	.consultant {height:450px; width:92%; top:0%; left:0%; margin-left:0%; margin-top:74px; padding-right:4%; padding-left:4%;}
+	.consultant img {padding-right: 20px;}
+	.addressbox {width:92%; top:0%; left:0%; margin-left:0px; margin-top:0px; padding-right:4%; padding-left:4%;}
+}
+
+@media (max-width: 800px) and (min-width: 650px) {
+	header {width:100%;}
+	header img {margin-left:4%;}
+	.contact {margin-right:4%;}
+	nav ul {width:100%;}
+	nav ul li:first-child {margin-left:4%;}
+	.aboutme {width: 96%; padding-left:4%;}
+	.addresscompany {width:96%; padding-left:4%;}
+	.description {width:92%; padding-left:4%; padding-right:4%}
+	.motto  {width:92%; height:15vh; left:0%; top:0%; margin-left:0px; margin-top:27.5vh; font-size:40px; padding-right:4%; padding-left:4%;}
+	section h3 {font-size:20px;}
+	.offer {width:100%; height:300px; top:0%; left:0%; margin-top:37px; margin-left:0px;}
+	.loan, .insurance, .consulting {width:30%; margin-left:2.5%; height:300px;}
+	.consultant {height:500px; width:92%; top:0%; left:0%; margin-left:0%; margin-top:74px; padding-right:4%; padding-left:4%;}
+	.consultant img {padding-right:20px;}
+	article {height:550px;}
+	.addressbox {height:100px; width:92%; top:0%; left:0%; margin-left:0px; margin-top:0px; padding-right:4%; padding-left:4%;}
+	footer {height:100px; clear:both;}
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+	header {width:100%;}
+	header img {margin-left:4%;}
+	.contact {margin-right:4%;}
+	nav ul {width:100%;}
+	nav ul li {margin-left:10px;}
+	section {height:640px;}
+	nav ul li:first-child {margin-left:4%;}
+	.aboutme {width:100%; padding-left:0%; padding-right:0%;}
+	.textbox {width:92%; height:200px; margin-top:89px; padding-left:4%; padding-right:4%;}
+	.addresscompany {width:100%; padding-left:0%; padding-right:0%;}
+	.addresscompanybox {width:92%; height:200px; margin-top:89px; padding-left:4%; padding-right:4%;}
+	.description {width:92%; padding-left:4%; padding-right:4%}
+	.motto  {width: 92%; height:10vh; left:0%; top:0%; margin-left:0px; margin-top:30vh; font-size:28px; padding-right:4%; padding-left:4%;}
+	section h3 {font-size:22px;}
+	.offer {width:100%; height:640px; top:0%; left:0%; margin-top:0px; margin-left:0px;}
+	.loan, .insurance, .consulting {width:90%; margin-left:5%; height:200px; float:none; margin-top:10px;}
+	article {height:710px;}
+	.consultant {height:700px; width:92%; top:0%; left:0%; margin-left:0%; margin-top:0px; padding-right:4%; padding-left:4%;}
+	.consultant img {padding-right:0px; float:none; margin-top:20px; width:80%; margin-left:10%;}
+	.addressbox {height:100px; width:92%; top:0%; left:0%; margin-left:0px; margin-top:0px; padding-right:4%; padding-left:4%;}
+	footer {height:100px; clear:both;}
+	
+}
+
+
+
+@media (max-width: 500px) {
+	header {width: 100%; height: auto;}
+	header img {margin-left:4%;}
+
+    .contact {font-size: 22px; float: none; padding-right:4%; padding-bottom: 21.5px;}
+	nav {height: 280px;}
+	nav ul {width:100%; text-align:center;}
+	nav ul li {float:none; margin-left:0; border-top:1px solid #CCC; text-transform:uppercase;}
+    .contact {float: none;}
+	section {height:640px;}
+	.motto  {width: 92%; height: 25vh; left:0%; top:0%; margin-left:0px; margin-top:22.5vh; font-size:22px; padding-right:4%; padding-left:4%;}
+	.aboutme {width:100%; height:250px; padding-left:0%; padding-right:0%;}
+	.textbox {width:92%; height:100%; margin-top:20px; padding-left:4%; padding-right:4%;}
+	.addresscompany {width:100%; height:200px; padding-left:0%; padding-right:0%;}
+	.addresscompanybox {width:92%; height:100%; margin-top:20px; padding-left:4%; padding-right:4%;}
+	.description {width: 92%; padding-left: 4%; padding-right:4%}
+	section h3 {font-size:20px;}
+	.offer {width:100%; height:640px; top:0%; left:0%; margin-top:0px; margin-left:0;}
+	.loan, .insurance, .consulting {width:90%; margin-left:5%; height:200px; float:none; margin-top:10px;}
+	article {height:710px;}
+	.consultant {height:700px; width:92%; top:0%; left:0%; margin-left:0%; margin-top:0px; padding-right:4%; padding-left:4%;}
+	.consultant img {padding-right:0px; float:none; margin-top:20px; width:60%; margin-left:10%;}
+	.addressbox {height:100px; width:92%; top:0%; left:0%; margin-left:0px; margin-top:0px; padding-right:4%; padding-left:4%;}
+	footer {height:100px; clear:both;}
+	}
+
+
+
